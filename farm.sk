@@ -1,65 +1,105 @@
 #By Lopo
 #27/11/20
-#Version : 1.1.1
+#Version : 1.1.2
 
 #   --HELP--
 #   /givefarm
 
-#=====================================================================================================================
+#==================================================Equip 1===================================================================
 
 on armor equip:
-	if event-item is chainmail boots named "&bBottes &f- &8[&dFarm&8]":
+	if event-item is chainmail boots of unbreaking 10 named "&bBottes &f- &8[&dFarm&8]":
 		if event-item's lore contains "&bBottes &f- &8[&dFarm&8]":
 		apply speed 2 to the player for 99999999999 minutes
 		send "&8[&dFarm&8] &7Vous avez obtenue l'effet de &6&lSpeed &7!"
 
 on armor equip:
-	if event-item is chainmail leggings named "&bPantalon &f- &8[&dFarm&8]":
+	if event-item is chainmail leggings of unbreaking 10 named "&bPantalon &f- &8[&dFarm&8]":
 		if event-item's lore contains "&bPantalon &f- &8[&dFarm&8]":
 		apply haste 2 to the player for 99999999999 minutes
 		apply jump boost 2 to the player for 99999999999 minutes
 		send "&8[&dFarm&8] &7Vous avez obtenue l'effet de &6&lHaste & Jump Boost &7!"
 
 on armor equip:
-	if event-item is chainmail chestplate named "&bPlastron &f- &8[&dFarm&8]":
+	if event-item is chainmail chestplate of unbreaking 10 named "&bPlastron &f- &8[&dFarm&8]":
 		if event-item's lore contains "&bPlastron &f- &8[&dFarm&8]":
 		apply fire resistance 2 to the player for 99999999999 minutes
 		send "&8[&dFarm&8] &7Vous avez obtenue l'effet de &6&lFire-Resistance &7!"
 
 on armor equip:
-	if event-item is chainmail helmet named "&bCasque &f- &8[&dFarm&8]":
+	if event-item is chainmail helmet of unbreaking 10 named "&bCasque &f- &8[&dFarm&8]":
 		if event-item's lore contains "&bCasque &f- &8[&dFarm&8]":
 		apply night vision 2 to the player for 99999999999 minutes 
 		send "&8[&dFarm&8] &7Vous avez obtenue l'effet de &6&lNight-Vision &7!"
 
-#=====================================================================================================================
+#=====================================================Equip 2================================================================
 
 on armor unequip:
-	if event-item is chainmail boots named "&bBottes &f- &8[&dFarm&8]":
+	if event-item is chainmail boots of unbreaking 10 named "&bBottes &f- &8[&dFarm&8]":
 		wait 5 ticks 
 		remove speed from the player 
 		send "&8[&dFarm&8] &7Vous perdez l'effet de &6&lSpeed &7!"			
 
 on armor unequip:
-	if event-item is chainmail leggings named "&bPantalon &f- &8[&dFarm&8]":
+	if event-item is chainmail leggings of unbreaking 10 named "&bPantalon &f- &8[&dFarm&8]":
 		wait 5 ticks 
 		remove haste from the player 
 		remove jump boost from the player
 		send "&8[&dFarm&8] &7Vous perdez l'effet de &6&lHaste & Jump Boost &7!"
 
 on armor unequip:
-	if event-item is chainmail chestplate named "&bPlastron &f- &8[&dFarm&8]":
+	if event-item is chainmail chestplate of unbreaking 10 named "&bPlastron &f- &8[&dFarm&8]":
 		wait 5 ticks 
 		remove fire resistance from the player 
 		send "&8[&dFarm&8] &7Vous perdez l'effet de &6&lFire-Resistance &7!"
 
 on armor unequip:
-	if event-item is chainmail helmet named "&bCasque &f- &8[&dFarm&8]":
+	if event-item is chainmail helmet of unbreaking 10 named "&bCasque &f- &8[&dFarm&8]":
 		wait 5 ticks 
 		remove night vision from the player 
 		send "&8[&dFarm&8] &7Vous perdez l'effet de &6&lNight-Vision &7!"
 
-#=====================================================================================================================
+#==============================================CRAFT=======================================================================
+
+
+#Bottes
+
+on load:
+	register new shaped recipe for chainmail boots of unbreaking 10 named "&bBottes &f- &8[&dFarm&8]" using 340, 42, 340, 133, 313, 133, 340, 133, 340
+	stop 
+
+on prepare item craft:
+	if slot 0 of current inventory of player is a chainmail boots named "&bBottes &f- &8[&dFarm&8]":
+
+#Pantalon
+
+on load:
+	register new shaped recipe for chainmail leggings of unbreaking 10 named "&bPantalon &f- &8[&dFarm&8]" using 340, 42, 340, 133, 312, 133, 340, 133, 340
+	stop 
+
+on prepare item craft:
+	if slot 0 of current inventory of player is a chainmail leggings named "&bPantalon &f- &8[&dFarm&8]":
+
+#Plastron
+
+on load:
+	register new shaped recipe for chainmail chestplate of unbreaking 10 named "&bPlastron &f- &8[&dFarm&8]" using 340, 42, 340, 133, 311, 133, 340, 133, 340
+	stop 
+
+on prepare item craft:
+	if slot 0 of current inventory of player is a chainmail chestplate named "&bPlastron &f- &8[&dFarm&8]":
+
+#Casque
+
+on load:
+	register new shaped recipe for chainmail helmet of unbreaking 10 named "&bCasque &f- &8[&dFarm&8]" using 340, 42, 340, 133, 310, 133, 340, 133, 340
+	stop 
+
+on prepare item craft:
+	if slot 0 of current inventory of player is a chainmail helmet named "&bCasque &f- &8[&dFarm&8]":
+
+
+#====================================COMMANDES & PERMISSION=======================================================================
 
 command /givefarm:
 	permission: farm.admin
