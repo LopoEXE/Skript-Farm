@@ -7,6 +7,9 @@ Skript Armor-Farm
 | 
 **_Last release : 27/11/20_**
 
+⚠️ Version du jeu : 1.8.8 | Addons obligatoire : SharpSK, Skript, Tuske. ⚠️
+-------------
+
 ### Download : 
 
 Commandes : 
@@ -17,4 +20,5 @@ Effets :
 - Le pantalon donne l'effet de Haste & Jump Boost
 - Le plastron donne l'effet de Fire Resistance
 - Le casque donne l'effet de Night Vision
+
 
