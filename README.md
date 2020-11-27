@@ -10,7 +10,7 @@ Skript Armor-Farm
 ⚠️ Version du jeu : 1.8.8 | Addons obligatoire : SharpSK, Skript, Tuske. ⚠️
 -------------
 
-### Download : 
+### Download : https://github.com/LopoEXE/Skript-Farm/blob/main/farm.sk
 
 Commandes : 
 - /givefarm | Permissions : farm.admin
