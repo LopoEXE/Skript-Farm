@@ -1,9 +1,9 @@
 Skript Armor-Farm
 -------------
 
-### Version : 1.1.0
-### Auteur : Lopo
-### Last release : 27/11/20
+**_Version : 1.1.0_**
+**_Auteur : Lopo_**
+**_Last release : 27/11/20_**
 
 
 ### Download : 
