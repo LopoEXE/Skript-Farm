@@ -7,8 +7,14 @@ Skript Armor-Farm
 | 
 **_Last release : 27/11/20_**
 
+### Download : 
+
 Commandes : 
 - /givefarm | Permissions : farm.admin
 
+Effets :
+- Les bottes donne l'effet Speed 
+- Le pantalon donne l'effet de Haste & Jump Boost
+- Le plastron donne l'effet de Fire Resistance
+- Le casque donne l'effet de Night Vision
 
-### Download : 
