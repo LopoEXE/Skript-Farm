@@ -23,6 +23,6 @@ Effets :
 
 Patch 1.1.1
 ---------
-** - Vous ne pouvez plus avoir des effets avec d'autres armures ! **
-** - Correctif addons. **
-** - Ajustement & simplification du skript. **
+- Vous ne pouvez plus avoir des effets avec d'autres armures !
+- Correctif addons. **
+- Ajustement & simplification du skript.
