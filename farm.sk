@@ -1,6 +1,6 @@
 #By Lopo
 #27/11/20
-#Version : 1.1.0
+#Version : 1.1.1
 
 #   --HELP--
 #   /givefarm
@@ -8,26 +8,26 @@
 #=====================================================================================================================
 
 on armor equip:
-	if event-item is any boots:
+	if event-item is any chainmail boots:
 		if event-item's lore contains "&bBottes &f- &8[&dFarm&8]":
 		apply speed 2 to the player for 99999999999 minutes
 		send "&8[&dFarm&8] &7Vous avez obtenue l'effet de &6&lSpeed &7!"
 
 on armor equip:
-	if event-item is any leggings:
+	if event-item is any chainmail leggings:
 		if event-item's lore contains "&bPantalon &f- &8[&dFarm&8]":
 		apply haste 2 to the player for 99999999999 minutes
 		send "&8[&dFarm&8] &7Vous avez obtenue l'effet de &6&lHaste &7!"
 
 on armor equip:
-	if event-item is any chestplate:
+	if event-item is any chainmail chestplate:
 		if event-item's lore contains "&bPlastron &f- &8[&dFarm&8]":
 		apply fire resistance 2 to the player for 99999999999 minutes
 		apply jump boost 2 to the player for 99999999999 minutes
 		send "&8[&dFarm&8] &7Vous avez obtenue l'effet de &6&lFire-Resistance & Jumpboost &7!"
 
 on armor equip:
-	if event-item is any helmet:
+	if event-item is any chainmail helmet:
 		if event-item's lore contains "&bCasque &f- &8[&dFarm&8]":
 		apply night vision 2 to the player for 99999999999 minutes 
 		send "&8[&dFarm&8] &7Vous avez obtenue l'effet de &6&lNight-Vision &7!"
@@ -35,26 +35,26 @@ on armor equip:
 #=====================================================================================================================
 
 on armor unequip:
-	if event-item is boots named "&bBottes &f- &8[&dFarm&8]":
+	if event-item is chainmail boots named "&bBottes &f- &8[&dFarm&8]":
 		wait 5 ticks 
 		remove speed from the player 
 		send "&8[&dFarm&8] &7Vous perdez l'effet de &6&lSpeed &7!"			
 
 on armor unequip:
-	if event-item is leggings named "&bPantalon &f- &8[&dFarm&8]":
+	if event-item is chainmail leggings named "&bPantalon &f- &8[&dFarm&8]":
 		wait 5 ticks 
 		remove haste from the player 
 		send "&8[&dFarm&8] &7Vous perdez l'effet de &6&lHaste &7!"
 
 on armor unequip:
-	if event-item is chestplate named "&bPlastron &f- &8[&dFarm&8]":
+	if event-item is chainmail chestplate named "&bPlastron &f- &8[&dFarm&8]":
 		wait 5 ticks 
 		remove fire resistance from the player 
 		remove jump boost from the player
 		send "&8[&dFarm&8] &7Vous perdez l'effet de &6&lFire-Resistance & Jumpboost &7!"
 
 on armor unequip:
-	if event-item is helmet named "&bCasque &f- &8[&dFarm&8]":
+	if event-item is chainmail helmet named "&bCasque &f- &8[&dFarm&8]":
 		wait 5 ticks 
 		remove night vision from the player 
 		send "&8[&dFarm&8] &7Vous perdez l'effet de &6&lNight-Vision &7!"
@@ -69,3 +69,4 @@ command /givefarm:
 		give 1 chainmail leggings of unbreaking 10 named "&bPantalon &f- &8[&dFarm&8]" to the player 
 		give 1 chainmail chestplate of unbreaking 10 named "&bPlastron &f- &8[&dFarm&8]" to the player 
 		give 1 chainmail helmet of unbreaking 10 named "&bCasque &f- &8[&dFarm&8]" to the player
+			
