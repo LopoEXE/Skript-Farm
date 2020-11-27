@@ -7,5 +7,8 @@ Skript Armor-Farm
 | 
 **_Last release : 27/11/20_**
 
+Commandes : 
+- /givefarm | Permissions : farm.admin
+
 
 ### Download : 
