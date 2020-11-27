@@ -21,7 +21,8 @@ Effets :
 - Le plastron donne l'effet de Fire Resistance
 - Le casque donne l'effet de Night Vision
 
-Version 1.1.1 Patch
+Patch 1.1.1
+---------
 - Vous ne pouvez plus avoir des effets avec d'autres armures !
 - Correctif addons.
 - Ajustement & simplification du skript.
