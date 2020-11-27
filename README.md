@@ -7,7 +7,7 @@ Skript Armor-Farm
 | 
 **_Last release : 27/11/20_**
 
-⚠️ Version du jeu : 1.8.8 | Addons obligatoire : SharpSK, Skript, Tuske, SkQuery, WildSkript. ⚠️
+⚠️ Version du jeu : 1.8.8 | Addons obligatoire : SharpSK, Skript, Tuske, SkQuery, WildSkript. 
 -------------
 
 ### Download : https://github.com/LopoEXE/Skript-Farm/blob/main/farm.sk
