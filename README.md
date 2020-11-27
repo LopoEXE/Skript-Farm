@@ -1,7 +1,7 @@
 Skript Armor-Farm
 -------------
 
-**_Version : 1.1.1_** 
+**_Version : 1.1.2_** 
  | 
  **_Auteur : Lopo_**
 | 
