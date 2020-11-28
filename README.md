@@ -20,10 +20,4 @@ Effets :
 - Le pantalon donne l'effet de Haste & Jump Boost
 - Le plastron donne l'effet de Fire Resistance
 - Le casque donne l'effet de Night Vision
-
-Patch 1.1.2
----------
-- Vous ne pouvez plus avoir des effets avec d'autres armures !
-- Correctif addons. **
-- Ajustement & simplification du skript.
-- Ajout des crafts 
+ 
